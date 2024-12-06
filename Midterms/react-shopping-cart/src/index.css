@@ -1,0 +1,19 @@
+/* Login.css */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+  margin: 0; /* Remove default margin */
+  font-family: Arial, sans-serif; /* Optional: set a font */
+  background-image: url(https://asset.gecdesigns.com/img/wallpapers/beautiful-magical-misty-mountains-reflection-river-ultra-hd-wallpaper-4k-sr10012420-1706505766369-cover.webp);
+  object-fit: cover;
+}
+
+.container {
+  text-align: center; /* Center text */
+  border: 1px solid #ccc; /* Optional: add a border */
+  padding: 20px; /* Add some padding */
+  border-radius: 8px; /* Optional: round the corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a shadow */
+}

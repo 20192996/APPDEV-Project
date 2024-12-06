@@ -1,0 +1,38 @@
+/* src/PokemonDetails.css */
+.pokemon-details {
+    text-align: center;
+    padding: 20px;
+    background-color: #add8e6;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .back-button {
+    background-color: #ef233c;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .pokemon-info {
+    margin-top: 20px;
+  }
+  
+  .evolution-chain {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .evolution-item {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .evolution-item img {
+    width: 50px;
+    height: 50px;
+  }

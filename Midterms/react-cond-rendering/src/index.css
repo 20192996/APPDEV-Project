@@ -1,0 +1,32 @@
+.list-category{
+  font-weight: bold;
+  font-size: 2.5em;
+  color: hsl(0, 0%, 20%);
+  text-align: center;
+  margin-bottom: 20px;
+  border: 3px solid;
+  border-radius: 10px;
+  background-color: aquamarine;
+}
+.list li{
+  font-size: 2em;
+  list-style: none;
+  padding: 2px;
+  margin: 10px;
+  border: 3px solid;
+  text-align: center;
+  background-color: gainsboro;
+}
+.list li:hover{
+  color: hsl(0, 0%, 55%);
+  cursor: pointer;
+}
+footer{
+  text-align: center;
+}
+header{
+  text-align: center;
+}
+body{
+  background: url(https://wallpapercave.com/wp/wp2643546.jpg);
+}

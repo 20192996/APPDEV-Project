@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+  font-family: 'Pokemon', sans-serif;
+  background-color: #f7ebc9;
+  padding: 20px;
+  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pokemon-item {
+  position: relative;
+  background-color: #add8e6;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+  transition: transform 0.2s;
+}
+
+.pokemon-item:hover {
+  transform: scale(1.05);
+}
+
+.pokemon-types {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.pokemon-item:hover .pokemon-types {
+  display: flex;
+}
+
+.pokemon-types .type {
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.type-normal { background-color: #A8A878; }
+.type-fire { background-color: #F08030; box-shadow: 0 0 10px rgba(255, 127, 15, 0.7); }
+.type-water { background-color: #6890F0; }
+.type-electric { background-color: #F8D030; }
+.type-grass { background-color: #78C850; }
+.type-ice { background-color: #98D8D8; }
+.type-fighting { background-color: #C03028; }
+.type-poison { background-color: #A040A0; }
+.type-ground { background-color: #E0C068; }
+.type-flying { background-color: #A890F0; }
+.type-psychic { background-color: #F85888; }
+.type-bug { background-color: #A8B820; }
+.type-rock { background-color: #B8A038; }
+.type-ghost { background-color: #705898; }
+.type-dragon { background-color: #7038F8; }
+.type-dark { background-color: #705848; }
+.type-steel { background-color: #B8B8D0; }
+.type-fairy { background-color: #EE99AC; }
+/* src/App.css */
+.type {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 2px;
+  color: white;
+  font-weight: bold;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.type-fire { background-color: #F08030; }
+.type-water { background-color: #6890F0; }
+/* Add other type classes here */
+
+input {
+  padding: 1%;
+  border-radius: 20%;
+  margin-right: 3%;
+}
+select{
+  padding: 1%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+div[name="box"]{
+  background-color: #e9cba7;
+}
+button{
+  background-color: #cefad0 !important;
+}

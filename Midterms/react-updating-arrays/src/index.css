@@ -1,0 +1,45 @@
+h2{
+    font-weight: bold;
+    font-size: 2.5em;
+    color: hsl(0, 0%, 20%);
+    text-align: center;
+    margin-bottom: 20px;
+    border: 3px solid;
+    border-radius: 10px;
+    background-color: aquamarine;
+  }
+  li{
+    font-size: 2em;
+    list-style: none;
+    padding: 2px;
+    margin: 10px;
+    border: 3px solid;
+    text-align: center;
+    background-color: gainsboro;
+  }
+  li:hover{
+    color: hsl(0, 0%, 55%);
+    cursor: pointer;
+  }
+  footer{
+    text-align: center;
+    padding: 44px;
+  color: #333;
+  }
+  header{
+    text-align: center;
+  }
+  body{
+    text-align: center;
+    background: url(https://wallpapers.com/images/hd/1920-x-1080-nature-desktop-ux3m3gux4d7b679j.jpg);
+  }
+  input{
+    width: 14.5%;
+    height: 30px;
+  }
+  button{
+    
+    margin-top: 10px;
+    width: 15%;
+    height: 35px;
+  }
